@@ -149,12 +149,22 @@
           <ul class="photo_list">
             <li class="photo_item">
               <img class="photo_img" src="./src/img/house.png" alt="house" />
+              <div class="photo_frame">
+                <div class="photo_frame-line"></div>
+                <div class="photo_frame-line"></div>
+                <div class="photo_frame-line"></div>
+              </div>
               <div class="photo_new">new</div>
               <div class="photo_house">House Living Room</div>
               <div class="photo_design">Interior Design</div>
             </li>
             <li class="photo_item">
               <img class="photo_img" src="./src/img/dore.jpg" alt="dore" />
+              <div class="photo_frame">
+                <div class="photo_frame-line"></div>
+                <div class="photo_frame-line"></div>
+                <div class="photo_frame-line"></div>
+              </div>
               <div class="photo_new">new</div>
               <div class="photo_house">Ocean View House</div>
               <div class="photo_design">Architecture</div>
@@ -165,6 +175,11 @@
                 src="./src/img/kitchen.jpg"
                 alt="kitchen"
               />
+              <div class="photo_frame">
+                <div class="photo_frame-line"></div>
+                <div class="photo_frame-line"></div>
+                <div class="photo_frame-line"></div>
+              </div>
               <div class="photo_new">new</div>
               <div class="photo_house">House Dining Area</div>
               <div class="photo_design">Interior Design</div>
@@ -284,33 +299,54 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer_box"></div>
-      <div class="footer_boxthree">
-        <ul class="footer_boxthree-list">
-          <li class="footer_boxthree-item">licensing</li>
-          <li class="footer_boxthree-item">styles</li>
-          <li class="footer_boxthree-item">changelog</li>
-        </ul>
-        <ul class="footer_boxthree-listl">
-          <li class="footer_boxthree-itemi">powerd by</li>
-          <li class="footer_boxthree-itemi two">webflow.com</li>
-        </ul>
-      </div>
-        <div class="container">
-          <div class="footer_boxtwo">
+      <div class="container">
+        <div class="footer_rectangle">
+          <div class="footer_logo">
             <img src="./src/icons/logotwo.svg" alt="logo" />
-            <ul class="footer_boxtwo-list">
-              <li class="footer_boxtwo-item">home</li>
-              <li class="footer_boxtwo-item">about</li>
-              <li class="footer_boxtwo-item">services</li>
-              <li class="footer_boxtwo-item">projects</li>
-              <li class="footer_boxtwo-item">news</li>
-              <li class="footer_boxtwo-item">contact</li>
-            </ul>
           </div>
-          <div class="footer_boxfour">
-            <div class="footer_boxfour-one">Newsletter (Emter Email)</div>
-          <button class="footer_boxfour-btn">Subscribe</button>
+          <nav class="footer_navigation">
+            <ul class="footer_menu">
+              <li class="footer_item">
+                <a class="footer_link" href="#">home</a>
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="#">about</a>
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="#">services</a>
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="#">projects</a>
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="#">news</a>
+              </li>
+              <li class="footer_item">
+                <a class="footer_link" href="#">contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="footer_form">
+            <input type="email" placeholder="Newsletter (Emter Email)" />
+            <button class="footer_form-btn">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer_wrapper">
+          <ul class="footer_list">
+            <li class="footer_item">
+              <a class="footer_link" href="#">licensing</a>
+            </li>
+            <li class="footer_item">
+              <a class="footer_link" href="#">styles</a>
+            </li>
+            <li class="footer_item">
+              <a class="footer_link" href="#">changelog</a>
+            </li>
+          </ul>
+          <div class="footer_box">
+            <span class="footer_site">powerd by</span>
+            <span class="footer_site">webflow.com</span>
+          </div>
         </div>
       </div>
     </footer>
